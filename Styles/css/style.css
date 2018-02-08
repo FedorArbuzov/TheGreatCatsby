@@ -38,8 +38,13 @@ body {
  }
 
 .page-header .btn {
-    border: 1px white solid;
-    padding: 20px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: 2px white solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
     margin-left: 100px;
 }
 
