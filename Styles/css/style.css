@@ -1,0 +1,66 @@
+
+body {
+    margin: 0px;
+}
+
+.wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/* header */
+
+.page-header {
+    background-image: url("../img/header-bg.jpg");
+}
+
+.header-top {
+    display: flex;
+    padding-top: 25px;
+}
+
+.main-nav {
+    display: flex;
+    list-style-type: none; /* Убираем маркеры */
+}
+
+
+
+.header-top a {
+    color: white;
+    text-decoration: none;
+    margin-left: 70px;
+    font-size: 25px;
+}
+
+.header-top a:hover {
+    text-decoration: underline;
+ }
+
+.page-header .btn {
+    border: 1px white solid;
+    padding: 20px;
+    margin-left: 100px;
+}
+
+.page-header .btn:hover {
+    text-decoration: none;
+    background-color: white;
+    color: #563D2F;
+}
+
+.promo {
+    width: 600px;
+    display: block;
+    color: white;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding-bottom: 150px;
+}
+
+.promo a {
+    color: white;
+    font-size: 60px;
+    text-decoration: none;
+
+}
