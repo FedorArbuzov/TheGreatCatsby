@@ -77,8 +77,13 @@ body {
 
 .promo a {
     color: white;
-    font-size: 60px;
     text-decoration: none;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 55px;
+    font-family: "Georgia", serif;
+    text-align: center;
+    white-space: pre;
 
 }
 
@@ -139,12 +144,12 @@ body {
     padding-bottom: 90px;
 }
 
-.cat-reference h2, .cat-reference .wrapper a, .reviews h2 {
+.cat-reference h2, .cat-reference .wrapper a, .reviews h2, .popular-and-price h2 {
     display: inline-block;
     margin-bottom: 5px;
 }
 
-.cat-reference .wrapper .btn, .reviews .wrapper .btn {
+.cat-reference .wrapper .btn, .reviews .wrapper .btn, .popular-and-price .wrapper .btn {
     color: #a38b70;
     text-decoration: none;
     border-radius: 4px;
@@ -208,5 +213,63 @@ dd img {
     font-style: italic;
 }
 
+/* popular-and-price */
+
+.popular-and-price{
+    margin-top: 50px;
+    padding-top: 50px;
+    background-color: #F1F1F1;
+}
+
+.popular-and-price .wrapper .btn {
+    margin-left: 450px;
+}
+
+.catalog-item {
+    display: inline-block;
+    border: 1px solid #d8d8d8;
+}
+
+.popular-items {
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+
+.popular-and-price .wrapper .catalog-item .btn {
+    margin-left: 0px;
+}
+
+.popular-items h3 {
+    padding-left: 20px;
+    padding-bottom: 10px;
+    font-style: italic;
+}
+
+.popular-items b {
+    display: inline-block;
+    padding-left: 20px;
+    padding-bottom: 25px;
+    padding-right: 80px;
+}
+
+.popular-and-price .wrapper .popular-items .btn {
+    width: 146px;
+    padding: 10px;
+    font: inherit;
+    vertical-align: top;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    word-wrap: break-word;
+    background-color: #a38b70;
+    border: 2px solid #a38b70;
+    border-radius: 2px;
+}
+
+.catalog-item:nth-child(2) {
+    margin-left: 30px;
+    margin-right: 30px;
+}
 
 
