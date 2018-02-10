@@ -139,12 +139,12 @@ body {
     padding-bottom: 90px;
 }
 
-.cat-reference h2, .cat-reference .wrapper a {
+.cat-reference h2, .cat-reference .wrapper a, .reviews h2 {
     display: inline-block;
     margin-bottom: 5px;
 }
 
-.cat-reference .wrapper .btn {
+.cat-reference .wrapper .btn, .reviews .wrapper .btn {
     color: #a38b70;
     text-decoration: none;
     border-radius: 4px;
@@ -156,7 +156,7 @@ body {
     margin-left: 500px;
 }
 
-.cat-reference .wrapper .btn:hover {
+.cat-reference .wrapper .btn:hover, .reviews .wrapper .btn:hover {
     text-decoration: none;
 }
 
@@ -184,9 +184,28 @@ dd img {
     position: absolute;
 }
 
+/* reviews */
 
 .cat-reference dt {
     margin-top: 60px;
+}
+
+.reviews-list {
+    margin-top: 50px;
+}
+.review-item {
+    width: 360px;
+    display: inline-block;
+    vertical-align: top;
+
+    padding-left: 50px;
+    border-left: 3px solid #a38b70;
+
+}
+
+.review-item cite {
+    font-weight: bold;
+    font-style: italic;
 }
 
 
