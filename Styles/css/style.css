@@ -9,10 +9,21 @@ body {
     margin: 0 auto;
 }
 
+.section-title {
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 55px;
+    font-family: "Georgia", serif;
+    color: #a38b70;
+}
+
 /* header */
 
 .page-header {
-    background-image: url("../img/header-bg.jpg");
+    background-image: url(../img/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .header-top {
@@ -118,4 +129,65 @@ body {
     font-family: "Georgia", serif;
     color: #a38b70;
 }
+
+/* theory */
+
+.cat-reference {
+    margin-top: 80px;
+    background-color: #F1F1F1;
+    padding-top: 70px;
+    padding-bottom: 90px;
+}
+
+.cat-reference h2, .cat-reference .wrapper a {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.cat-reference .wrapper .btn {
+    color: #a38b70;
+    text-decoration: none;
+    border-radius: 4px;
+    border: 2px #a38b70 solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 500px;
+}
+
+.cat-reference .wrapper .btn:hover {
+    text-decoration: none;
+}
+
+dt .reference-title {
+    display: inline;
+    font-size: 24px;
+}
+
+dt a, dt a:hover {
+    color: #a38b70;
+    font-style: italic;
+}
+
+dd {
+    margin: 0px;
+    position: relative;
+    padding-left: 130px;
+    font-size: 18px;
+}
+
+dd img {
+    border-radius: 5px;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+}
+
+
+.cat-reference dt {
+    margin-top: 60px;
+}
+
+
 
