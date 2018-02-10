@@ -242,7 +242,7 @@ dd img {
     padding-right: 80px;
 }
 
-.popular-and-price .wrapper .popular-items .btn {
+.popular-and-price .wrapper .popular-items .btn, .feedback .btn {
     width: 146px;
     padding: 10px;
     font: inherit;
@@ -312,6 +312,94 @@ td, th {
 .popular-and-price .wrapper {
     padding: 70px;
 }
+
+/* feedback */
+
+.feedback {
+    margin-bottom: 80px;
+}
+
+.feedback .section-title {
+    display: inline-block;
+    margin-right: 120px;
+}
+
+.feedback p {
+    display: inline-block;
+
+}
+
+.feedback form {
+    padding-right: 390px;
+    width: 630px;
+    padding-right: 390px;
+    background-image: url(../img/write.jpg);
+    background-repeat: no-repeat;
+    background-position: 100% 40px;
+}
+
+.feedback input[type="text"], textarea, select {
+    box-sizing: border-box;
+    width: 100%;
+    height: 54px;
+    padding: 9px 15px;
+    font: inherit;
+    color: inherit;
+    border: 2px solid #d5d5d5;
+    margin-bottom: 20px;
+}
+
+textarea {
+    min-height: 120px;
+}
+
+.feedback input[type="text"]:focus, textarea:focus, select:focus {
+    border: 2px solid #a38b70;
+}
+
+.feedback-form-group label {
+    display: inline-block;
+    padding: 5px 0;
+    padding-left: 17px;
+    padding-bottom: 5px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.feedback-form-group-left-part {
+    width: 300px;
+    float: left;
+}
+
+.feedback-form-group-right-part {
+    width: 300px;
+    float: right;
+}
+
+.clearfix::after {
+    display: table;
+    clear: both;
+
+    content: "";
+}
+
+.checkbox {
+    font-size: 20px;
+}
+
+.checkbox-area {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #d5d5d5;
+}
+
+/* footer */
+
+.page-footer {
+    background-color: #393939;
+}
+
 
 
 
