@@ -11,6 +11,7 @@ body {
   background-color: white;
 }
 
+
 .container {
   width: 1020px;
   margin: 0 auto;
@@ -29,7 +30,7 @@ body {
 }
 
 .page-header {
-  min-height: 490px;
+  height: 490px;
   background-color: rgba(36, 210, 233, 0.822);
 }
 
@@ -135,38 +136,20 @@ body {
   position: relative;
   float: left;
   width: 279px;
-  padding-top: 90px;
+  padding-top: 30px;
   padding-right: 30px;
   padding-left: 30px;
   text-align: center;
   border-left: 1px solid #d9d9d9;
 }
 
+.feature-item svg {
+  width: 54px;
+  height: 54px;
+}
+
 .feature-item:first-child {
   border-left-color: transparent;
-}
-
-.feature-item::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 137px;
-  width: 65px;
-  height: 65px;
-  background-image: url("../img/sprite.png");
-  background-repeat: no-repeat;
-}
-
-.feature-choice::before {
-  background-position: -5px -5px;
-}
-
-.feature-quality::before {
-  background-position: -5px -76px;
-}
-
-.feature-safety::before {
-  background-position: 1px -143px;
 }
 
 .feature-title {
