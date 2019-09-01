@@ -4,9 +4,8 @@ body {
   min-width: 1040px;
   margin: 0;
   padding: 0;
-  font-size: 16px;
   line-height: 24px;
-  font-family: "Arial", sans-serif;
+  font: 12px/18px Arial, Tahoma, Verdana, sans-serif;
   color: #404040;
   background-color: white;
 }
@@ -52,7 +51,7 @@ body {
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
   font-size: 23px;
-  color: #000000;
+  color: #505050;
   text-decoration: none;
   float: right;
   margin-top: 18px;
@@ -93,14 +92,14 @@ body {
 
 .main-nav a {
   font-size: 19px;
-  color: #000000;
+  color: #505050;
   text-decoration: none;
 }
 
 .btn-quick-order {
   text-transform: uppercase;
   font-size: 19px;
-  color: #000000;
+  color: #505050;
   text-decoration: none;
   float: right;
   margin-top: 18px;
@@ -117,7 +116,6 @@ body {
   font-weight: bold;
   font-size: 45px;
   line-height: 55px;
-  font-family: "Georgia", serif;
   text-align: center;
 }
 
@@ -158,12 +156,113 @@ body {
   font-weight: bold;
   font-size: 30px;
   line-height: 30px;
-  font-family: "Georgia", serif;
-  color: #a38b70;
+  color: #999;
 }
 
 .feature-item p {
+  font-size: 16px;
+  line-height: 19px;
   margin: 0;
+}
+
+.wrapper {
+  width: 800px;
+  margin: 0 auto;
+}
+/*пресса*/
+
+.press-review {
+  padding-top: 40px;
+  padding-bottom: 60px;
+
+  background: #f2f2f2;
+}
+
+
+.press-review blockquote {
+  font-size: 16px;
+
+  position: relative;
+
+  margin: 0;
+  margin-top: 22px;
+}
+
+.press-review blockquote div {
+  margin-top: 50px
+}
+
+.press-review p:before {
+  position: absolute;
+  top: 7px;
+  left: -105px;
+
+  display: block;
+
+  width: 18px;
+  height: 30px;
+
+  content: "";
+
+  border-radius: 0 0 9px 0;
+  background-color: #d6cec3;
+  box-shadow: 23px 0 0 #d6cec3;
+}
+
+.press-review p:after {
+  position: absolute;
+  top: 25px;
+  left: -105px;
+
+  display: block;
+
+  width: 8px;
+  height: 12px;
+
+  content: "";
+
+  background-color: #f2f2f2;
+  box-shadow: 23px 0 0 #f2f2f2;
+}
+
+.press-review p {
+  font-size: 17px;
+  line-height: 19px;
+  padding-right: 110px;
+}
+
+.press-review .btn {
+  font-size: 22px;
+  font-weight: 600;
+  text-decoration: none;
+  margin-top: 40px;
+  padding: 9px 21px;
+
+  color: #c0b8ad;
+  border: 2px solid #a69f95;
+  border-radius: 4px;
+}
+
+.press-review .btn:hover {
+  color: #7d6038;
+  border: 2px solid #6c5330;
+}
+
+.press-review .btn:active {
+  color: #908b85;
+  border: 2px solid #7d7973;
+}
+
+.press-review cite {
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+
+  position: absolute;
+  right: 0;
+  bottom: 9px;
+
+  text-transform: uppercase;
 }
 
 .cat-reference {
@@ -179,12 +278,11 @@ body {
 .section-title {
   margin: 0;
   margin-right: 180px;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
   font-weight: bold;
   font-size: 45px;
   line-height: 55px;
-  font-family: "Georgia", serif;
-  color: #a38b70;
+  color: #707070;
 }
 
 .to-full-reference {
@@ -528,6 +626,7 @@ body {
 }
 
 .page-footer {
+  background-color: #f2f2f2;
   padding-top: 45px;
   padding-bottom: 50px;
 }
